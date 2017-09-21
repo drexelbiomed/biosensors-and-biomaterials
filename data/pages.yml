@@ -8,16 +8,24 @@
   sub_pages:
     - title: Research Overview
       url: overview
+    - title: Piezoelectric Plate Sensor (PEPS)
+      url: piezoelectric-plate-sensor
+    - title: Piezoelectric Finger (PEF)
+      url: piezoelectric-finger
+    - title: Aqueous Quantum Dots (AQDs) Molecular Probe
+      url: aqueous-quantum-dots
+    - title: Instant Antimicrobial Susceptibility Test (iAST)
+      url: instant-antimicrobial-susceptibility-test
 - title: Publications
   url: publications
   sub_pages:
-    - title: Research Overview
-      url: overview
+    - title: Publications List
+      url: list
 - title: Patents
   url: patents
   sub_pages:
-    - title: Research Overview
-      url: overview
+    - title: Patents
+      url: list
 - title: Technology Transfer
   url: technology-transfer
   sub_pages:
