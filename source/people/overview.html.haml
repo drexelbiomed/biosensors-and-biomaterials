@@ -2,19 +2,23 @@
 title: People Overview
 ---
 %h1= current_page.data.title
-%h2 Wan Y. Shih, PhD
-%p
-  Professor
-  %br/
-  School of Biomedical Engineering, Science and Health Systems
-  %br/
-  Drexel University
-  %br/
-  Fellow
-  %br/
-  National Academy of Inventors
-  %br/
-  = mail_to "shihwy@drexel.edu"
+.clearfix
+  = image_tag "http://drexel.edu/~/media/Images/biomed/faculty/shih-wan.ashx", alt: "Dr. Wan Y. Shih", class: "right"
+  %h2 Wan Y. Shih, PhD
+  %p
+    %em Professor
+    %br/
+    %em School of Biomedical Engineering, Science and Health Systems
+    %br/
+    %em Drexel University
+  %p
+    %em Fellow
+    %br/
+    %em National Academy of Inventors
+    %br/
+    %a{href: "shihwy@drexel.edu", class: "more-link"} Email
+
+%hr/
 
 %h2 PhD Students
 %ul
