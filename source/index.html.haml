@@ -5,7 +5,7 @@ title: Home
 %ul.bxslider
   - data.slides.each do |s|
     %li
-      = image_tag "#{s.img}", title: s.title, class: 'more-link', alt: s.alt
+      = image_tag "#{s.img}", title: s.title, alt: s.alt
 
 %h2
   = data.info.site.title
