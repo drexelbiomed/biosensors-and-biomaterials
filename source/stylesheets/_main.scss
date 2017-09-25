@@ -171,3 +171,24 @@ ul.unstyled {
     list-style: none;
   }
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.38462rem;
+}
+
+p.center {
+  text-align: center;
+}
+
+ol li {
+  margin-bottom: 2em;
+}
+
+span.socialMediaLabel {
+  position: absolute;
+  left: -5000px;
+}

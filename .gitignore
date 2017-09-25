@@ -26,3 +26,5 @@ data/ftp.yml
 
 *.psd
 *.pdf
+
+*.ai

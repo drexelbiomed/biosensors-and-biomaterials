@@ -3,7 +3,20 @@ title: Home
 ---
 
 %ul.bxslider
-  %li= image_tag "http://placehold.it/500x335&text=one", title: "This is a caption"
-  %li= image_tag "http://placehold.it/500x335&text=two", title: "This is a caption"
-  %li= image_tag "http://placehold.it/500x335&text=three", title: "This is a caption"
-  %li= image_tag "http://placehold.it/500x335&text=four", title: "This is a caption"
+  - data.slides.each do |s|
+    %li
+      = image_tag "#{s.img}", title: s.title, alt: s.alt
+
+%h2
+  = data.info.site.title
+  %br
+  %small Research Overview
+%p
+  Dr. Shih’s research interest lies in combining her science and engineering background with biology to create unconventional, low-cost biomedical devices to serve a wider population that otherwise have little or no access to the conventional facilities. The following are examples of her research areas:
+  %strong Piezoelectric Plate Sensor (PEPS)
+  ,
+  %strong Piezoelectric Finger (PEF)
+  ,
+  %strong Aqueous Quantum Dots (AQDs) Molecular Probe
+  ,
+  %strong Instant Antimicrobial Susceptibility Test (iAST)

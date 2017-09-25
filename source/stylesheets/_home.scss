@@ -1,9 +1,17 @@
+.index {
+  p {
+    font-size: 1.125rem;
+  }
+  h2 small {
+    font-size: 1.25rem;
+  }
+}
 .home-panel {
   background: $drexel-blue;
   padding-bottom: 1em;
   margin-bottom: 2em;
 
-  h3, h4, h5, h6 {
+  h2, h3, h4, h5, h6 {
     color: #fff;
     padding: 0.4em;
     margin: 0;
