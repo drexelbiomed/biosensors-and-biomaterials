@@ -26,7 +26,7 @@
   sub_pages:
     - title: Patents
       url: list
-- title: Technology Transfer
+- title: Tech Transfer
   url: technology-transfer
   sub_pages:
     - title: Technology Licensing
